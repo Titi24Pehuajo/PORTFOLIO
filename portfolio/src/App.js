@@ -15,6 +15,7 @@ function App() {
       <SocialLinks />
       <Proyects />
       <Experience />
+      <Contact />
     </>
   );
 }

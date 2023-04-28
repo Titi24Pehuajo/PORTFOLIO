@@ -19,7 +19,7 @@ const Proyects = () => {
 
   return (
     <div
-      name="portfolio"
+      name="Proyectos"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -32,7 +32,7 @@ const Proyects = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, code }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div key={id} className="shadow-md shadow-cyan-600 rounded-lg">
               <img
                 src={src}
                 alt="img"
