@@ -5,14 +5,18 @@ import AboutMe from "./components/AboutMe";
 import Proyects from "./components/Proyects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import ParticlesBackground from "./components/ParticlesBackground";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <div>
+        <Navbar />
+        <ParticlesBackground />
+      </div>
+      <SocialLinks />
       <Home />
       <AboutMe />
-      <SocialLinks />
       <Proyects />
       <Experience />
       <Contact />

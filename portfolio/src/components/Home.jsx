@@ -1,6 +1,8 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import perfil from "../assets/perfil.png";
+import "../styles/home.css";
 
 const Home = () => {
   return (
@@ -31,6 +33,10 @@ const Home = () => {
               </span>
             </Link>
           </div>
+        </div>
+
+        <div>
+          <img src={perfil} alt="my profile" className="rounded-2xl  w-2/3 " />
         </div>
       </div>
     </div>

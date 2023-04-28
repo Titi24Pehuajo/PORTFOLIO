@@ -1,4 +1,5 @@
 import React from "react";
+import perfil from "../assets/perfil.png";
 
 const AboutMe = () => {
   return (
@@ -26,8 +27,6 @@ const AboutMe = () => {
         </p>
 
         <br />
-
-        <p className="text-xl"></p>
       </div>
     </div>
   );
