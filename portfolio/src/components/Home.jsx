@@ -17,7 +17,7 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             Hola me llamo Tiago Rodriguez y te invito a ver mi portfolio donde
-            muestro proyectos y hablo un poco de mi vida😁.
+            muestro algunos de mis proyectos y hablo un poco de mi vida😁.
           </p>
 
           <div>
