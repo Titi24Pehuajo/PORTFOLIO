@@ -18,7 +18,7 @@ const ParticlesBackground = () => {
   }, []);
 
   return (
-    <div>
+    <div className="absolute ">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -73,7 +73,7 @@ const ParticlesBackground = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 2,
+              speed: 1.5,
               straight: false,
             },
             number: {

@@ -12,7 +12,8 @@ const Contact = () => {
             Contactame!
           </p>
           <p className="py-6">
-            ¿Quieres hablar conmigo? Te invito a completar el formulario😁
+            ¿Quieres hablar conmigo? Te invito a mandarme un mail a través del
+            formulario😁
           </p>
         </div>
 
@@ -27,10 +28,10 @@ const Contact = () => {
               name="name"
               required
               placeholder="Ingresa tu nombre"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none z-20"
             />
             <input
-              type="text"
+              type="email"
               name="email"
               required
               placeholder="Ingresa tu email"

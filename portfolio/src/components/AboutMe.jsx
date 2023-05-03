@@ -1,5 +1,4 @@
 import React from "react";
-import perfil from "../assets/perfil.png";
 
 const AboutMe = () => {
   return (
