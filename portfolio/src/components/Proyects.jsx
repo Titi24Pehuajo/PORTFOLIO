@@ -7,11 +7,13 @@ const Proyects = () => {
   const portfolios = [
     {
       id: 1,
+      nombre: "Al Lio Clothing Store",
       src: allio,
       code: "https://github.com/Titi24Pehuajo/Al-Lio-Clothing-Store",
     },
     {
       id: 2,
+      nombre: "House Of Dev",
       src: hod,
       code: "https://github.com/Titi24Pehuajo/Proyecto-Integrador",
     },
@@ -31,14 +33,19 @@ const Proyects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, code }) => (
+          {portfolios.map(({ id, src, code, nombre }) => (
             <div key={id} className="shadow-md shadow-cyan-600 rounded-lg">
               <img
                 src={src}
                 alt="img"
                 className="rounded-md duration-200 hover:scale-105 imagen"
               />
+
               <div className="flex items-center justify-center">
+                <h1 className=" px-2 py-3 m-4 duration-200 hover:scale-105">
+                  {nombre}
+                </h1>
+
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   <a href={code} target="_blank" rel="noreferrer">
                     Code
