@@ -28,7 +28,7 @@ const Contact = () => {
               name="name"
               required
               placeholder="Ingresa tu nombre"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none z-20"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="email"
