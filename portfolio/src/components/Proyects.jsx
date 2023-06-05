@@ -1,7 +1,9 @@
 import React from "react";
 import allio from "../assets/al_lio.png";
 import hod from "../assets/hod.png";
+import tmp from "../assets/the-movie-place.jpg";
 import "../styles/Proyects.css";
+import { Link } from "react-scroll";
 
 const Proyects = () => {
   const portfolios = [
@@ -16,6 +18,13 @@ const Proyects = () => {
       nombre: "House Of Dev",
       src: hod,
       code: "https://github.com/Titi24Pehuajo/Proyecto-Integrador",
+    },
+    {
+      id: 3,
+      demo: "https://the-movie-place.netlify.app/",
+      nombre: "The Movie Place",
+      src: tmp,
+      code: "https://github.com/Titi24Pehuajo/TMDB",
     },
   ];
 
@@ -33,7 +42,7 @@ const Proyects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, code, nombre }) => (
+          {portfolios.map(({ id, src, code, nombre, demo }) => (
             <div key={id} className="shadow-md shadow-cyan-600 rounded-lg">
               <img
                 src={src}
@@ -42,9 +51,11 @@ const Proyects = () => {
               />
 
               <div className="flex items-center justify-center">
-                <h1 className=" px-2 py-3 m-4 duration-200 hover:scale-105">
-                  {nombre}
-                </h1>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <a href={demo} target="_blank" rel="noreferrer">
+                    {nombre}
+                  </a>
+                </button>
 
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   <a href={code} target="_blank" rel="noreferrer">
