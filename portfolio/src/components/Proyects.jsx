@@ -3,7 +3,6 @@ import allio from "../assets/al_lio.png";
 import hod from "../assets/hod.png";
 import tmp from "../assets/the-movie-place.jpg";
 import "../styles/Proyects.css";
-import { Link } from "react-scroll";
 
 const Proyects = () => {
   const portfolios = [
@@ -31,7 +30,7 @@ const Proyects = () => {
   return (
     <div
       name="Proyectos"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

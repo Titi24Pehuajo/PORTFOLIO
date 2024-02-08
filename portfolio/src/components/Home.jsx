@@ -1,9 +1,6 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import perfil from "../assets/perfil.png";
-import "../styles/home.css";
-
 const Home = () => {
   return (
     <div
@@ -13,11 +10,11 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            ¡Bienvenido a mi portfolio!
+            Bienvenido a mi portfolio
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             Hola me llamo Tiago Rodriguez y te invito a ver mi portfolio donde
-            muestro algunos de mis proyectos y hablo un poco de mi vida😁.
+            muestro algunos de mis proyectos y hablo un poco de mi vida.
           </p>
 
           <div>

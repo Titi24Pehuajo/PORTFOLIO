@@ -6,6 +6,7 @@ import Proyects from "./components/Proyects";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import ParticlesBackground from "./components/ParticlesBackground";
+import Timeline from "./components/Timeline";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       </div>
       <SocialLinks />
       <Home />
+
       <AboutMe />
+      <Timeline />
       <Proyects />
       <Experience />
       <Contact />
