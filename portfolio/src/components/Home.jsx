@@ -1,6 +1,8 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import fotoCv from "../assets/fotoCv.png";
+import "../styles/Scrollbar.css";
 const Home = () => {
   return (
     <div
@@ -12,6 +14,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             Bienvenido a mi portfolio
           </h2>
+
           <p className="text-gray-500 py-4 max-w-md">
             Hola me llamo Tiago Rodriguez y te invito a ver mi portfolio donde
             muestro algunos de mis proyectos y hablo un poco de mi vida.
@@ -30,6 +33,14 @@ const Home = () => {
               </span>
             </Link>
           </div>
+        </div>
+
+        <div className=" rounded-3xl z-10">
+          <img
+            alt="mi-perfil"
+            src={fotoCv}
+            className=" rounded-full h-64 w-64"
+          />
         </div>
       </div>
     </div>
