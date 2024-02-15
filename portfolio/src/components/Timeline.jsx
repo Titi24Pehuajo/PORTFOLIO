@@ -68,7 +68,7 @@ const Timeline = () => {
                 Realice mi primera pasantia
               </h3>
               <p className="text-black font-bold">
-                Entre durante 3 meses como pasante para una empresa de
+                Ingresé durante 3 meses como pasante para una empresa de
                 Inglaterra. Mi objetivo era optimizar el codigo para una mayor
                 fluidez del sitio web y realizar una mejor visualizacion.
               </p>

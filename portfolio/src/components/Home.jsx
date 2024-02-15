@@ -1,9 +1,15 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import fotoCv from "../assets/fotoCv.png";
 import "../styles/Scrollbar.css";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+
 const Home = () => {
+  const [text] = useTypewriter({
+    words: ["Bienvenido a mi porfolio"],
+    typeSpeed: 130,
+  });
+
   return (
     <div
       name="Inicio"
@@ -12,7 +18,10 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Bienvenido a mi portfolio
+            {text}
+            <span>
+              <Cursor cursorColor="gray" cursorStyle="|" />
+            </span>
           </h2>
 
           <p className="text-gray-500 py-4 max-w-md">
@@ -33,14 +42,6 @@ const Home = () => {
               </span>
             </Link>
           </div>
-        </div>
-
-        <div className=" rounded-3xl z-10">
-          <img
-            alt="mi-perfil"
-            src={fotoCv}
-            className=" rounded-full h-64 w-64"
-          />
         </div>
       </div>
     </div>

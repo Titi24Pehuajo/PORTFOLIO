@@ -1,10 +1,5 @@
 import React from "react";
-// import {
-//   VerticalTimeline,
-//   VerticalTimelineElement,
-// } from "react-vertical-timeline-component";
-// import "react-vertical-timeline-component/style.min.css";
-// import { FaGraduationCap, FaBook, FaBriefcase } from "react-icons/fa";
+
 const AboutMe = () => {
   return (
     <div

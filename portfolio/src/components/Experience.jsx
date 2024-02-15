@@ -13,11 +13,11 @@ import mysql from "../assets/mysql.png";
 import mongodb from "../assets/mongodb.png";
 import git from "../assets/git.png";
 import tailwind from "../assets/tailwind.png";
-import docker from "../assets/docker.png";
 import materialUi from "../assets/materialUi.png";
 import chakra from "../assets/chakra.png";
 import typescript from "../assets/typescript.png";
 import bootstrap from "../assets/bootstrap.png";
+import astro from "../assets/astro.png";
 
 const Experience = () => {
   const techs = [
@@ -101,9 +101,9 @@ const Experience = () => {
     },
     {
       id: 16,
-      src: docker,
-      title: "Docker",
-      style: "shadow-sky-600",
+      src: astro,
+      title: "Astro",
+      style: "shadow-purple-600",
     },
     {
       id: 17,
